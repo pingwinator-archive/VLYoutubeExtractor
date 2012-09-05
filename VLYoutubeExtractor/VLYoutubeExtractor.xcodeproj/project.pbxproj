@@ -15,6 +15,8 @@
 		FD09054B15F7B59900B130B7 /* VLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD09054A15F7B59900B130B7 /* VLAppDelegate.m */; };
 		FD09054E15F7B59900B130B7 /* VLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD09054D15F7B59900B130B7 /* VLViewController.m */; };
 		FD09055115F7B59900B130B7 /* VLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD09054F15F7B59900B130B7 /* VLViewController.xib */; };
+		FD09055915F7B62600B130B7 /* VLYoutubeExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = FD09055815F7B62600B130B7 /* VLYoutubeExtractor.m */; };
+		FD09055C15F7BAF400B130B7 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FD09055B15F7BAF400B130B7 /* JSONKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,10 @@
 		FD09054C15F7B59900B130B7 /* VLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLViewController.h; sourceTree = "<group>"; };
 		FD09054D15F7B59900B130B7 /* VLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLViewController.m; sourceTree = "<group>"; };
 		FD09055015F7B59900B130B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VLViewController.xib; sourceTree = "<group>"; };
+		FD09055715F7B62600B130B7 /* VLYoutubeExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VLYoutubeExtractor.h; path = ../VLYoutubeExtractor.h; sourceTree = "<group>"; };
+		FD09055815F7B62600B130B7 /* VLYoutubeExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VLYoutubeExtractor.m; path = ../VLYoutubeExtractor.m; sourceTree = "<group>"; };
+		FD09055A15F7BAF400B130B7 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		FD09055B15F7BAF400B130B7 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +56,8 @@
 		FD09052B15F7B59800B130B7 = {
 			isa = PBXGroup;
 			children = (
+				FD09055715F7B62600B130B7 /* VLYoutubeExtractor.h */,
+				FD09055815F7B62600B130B7 /* VLYoutubeExtractor.m */,
 				FD09054015F7B59800B130B7 /* VLYoutubeExtractor */,
 				FD09053915F7B59800B130B7 /* Frameworks */,
 				FD09053715F7B59800B130B7 /* Products */,
@@ -77,6 +85,8 @@
 		FD09054015F7B59800B130B7 /* VLYoutubeExtractor */ = {
 			isa = PBXGroup;
 			children = (
+				FD09055A15F7BAF400B130B7 /* JSONKit.h */,
+				FD09055B15F7BAF400B130B7 /* JSONKit.m */,
 				FD09054915F7B59900B130B7 /* VLAppDelegate.h */,
 				FD09054A15F7B59900B130B7 /* VLAppDelegate.m */,
 				FD09054C15F7B59900B130B7 /* VLViewController.h */,
@@ -165,6 +175,8 @@
 				FD09054715F7B59900B130B7 /* main.m in Sources */,
 				FD09054B15F7B59900B130B7 /* VLAppDelegate.m in Sources */,
 				FD09054E15F7B59900B130B7 /* VLViewController.m in Sources */,
+				FD09055915F7B62600B130B7 /* VLYoutubeExtractor.m in Sources */,
+				FD09055C15F7BAF400B130B7 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
