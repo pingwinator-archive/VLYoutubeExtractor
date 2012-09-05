@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD09053B15F7B59800B130B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD09053A15F7B59800B130B7 /* UIKit.framework */; };
+		FD09053D15F7B59800B130B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD09053C15F7B59800B130B7 /* Foundation.framework */; };
+		FD09053F15F7B59800B130B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD09053E15F7B59800B130B7 /* CoreGraphics.framework */; };
+		FD09054515F7B59900B130B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD09054315F7B59800B130B7 /* InfoPlist.strings */; };
+		FD09054715F7B59900B130B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD09054615F7B59900B130B7 /* main.m */; };
+		FD09054B15F7B59900B130B7 /* VLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD09054A15F7B59900B130B7 /* VLAppDelegate.m */; };
+		FD09054E15F7B59900B130B7 /* VLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD09054D15F7B59900B130B7 /* VLViewController.m */; };
+		FD09055115F7B59900B130B7 /* VLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD09054F15F7B59900B130B7 /* VLViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD09053615F7B59800B130B7 /* VLYoutubeExtractor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VLYoutubeExtractor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD09053A15F7B59800B130B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FD09053C15F7B59800B130B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FD09053E15F7B59800B130B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FD09054215F7B59800B130B7 /* VLYoutubeExtractor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VLYoutubeExtractor-Info.plist"; sourceTree = "<group>"; };
+		FD09054415F7B59800B130B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD09054615F7B59900B130B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD09054815F7B59900B130B7 /* VLYoutubeExtractor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VLYoutubeExtractor-Prefix.pch"; sourceTree = "<group>"; };
+		FD09054915F7B59900B130B7 /* VLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLAppDelegate.h; sourceTree = "<group>"; };
+		FD09054A15F7B59900B130B7 /* VLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLAppDelegate.m; sourceTree = "<group>"; };
+		FD09054C15F7B59900B130B7 /* VLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLViewController.h; sourceTree = "<group>"; };
+		FD09054D15F7B59900B130B7 /* VLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLViewController.m; sourceTree = "<group>"; };
+		FD09055015F7B59900B130B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VLViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD09053315F7B59800B130B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD09053B15F7B59800B130B7 /* UIKit.framework in Frameworks */,
+				FD09053D15F7B59800B130B7 /* Foundation.framework in Frameworks */,
+				FD09053F15F7B59800B130B7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD09052B15F7B59800B130B7 = {
+			isa = PBXGroup;
+			children = (
+				FD09054015F7B59800B130B7 /* VLYoutubeExtractor */,
+				FD09053915F7B59800B130B7 /* Frameworks */,
+				FD09053715F7B59800B130B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD09053715F7B59800B130B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD09053615F7B59800B130B7 /* VLYoutubeExtractor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD09053915F7B59800B130B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD09053A15F7B59800B130B7 /* UIKit.framework */,
+				FD09053C15F7B59800B130B7 /* Foundation.framework */,
+				FD09053E15F7B59800B130B7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD09054015F7B59800B130B7 /* VLYoutubeExtractor */ = {
+			isa = PBXGroup;
+			children = (
+				FD09054915F7B59900B130B7 /* VLAppDelegate.h */,
+				FD09054A15F7B59900B130B7 /* VLAppDelegate.m */,
+				FD09054C15F7B59900B130B7 /* VLViewController.h */,
+				FD09054D15F7B59900B130B7 /* VLViewController.m */,
+				FD09054F15F7B59900B130B7 /* VLViewController.xib */,
+				FD09054115F7B59800B130B7 /* Supporting Files */,
+			);
+			path = VLYoutubeExtractor;
+			sourceTree = "<group>";
+		};
+		FD09054115F7B59800B130B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD09054215F7B59800B130B7 /* VLYoutubeExtractor-Info.plist */,
+				FD09054315F7B59800B130B7 /* InfoPlist.strings */,
+				FD09054615F7B59900B130B7 /* main.m */,
+				FD09054815F7B59900B130B7 /* VLYoutubeExtractor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD09053515F7B59800B130B7 /* VLYoutubeExtractor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD09055415F7B59900B130B7 /* Build configuration list for PBXNativeTarget "VLYoutubeExtractor" */;
+			buildPhases = (
+				FD09053215F7B59800B130B7 /* Sources */,
+				FD09053315F7B59800B130B7 /* Frameworks */,
+				FD09053415F7B59800B130B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VLYoutubeExtractor;
+			productName = VLYoutubeExtractor;
+			productReference = FD09053615F7B59800B130B7 /* VLYoutubeExtractor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD09052D15F7B59800B130B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VL;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Vasyl Liutikov";
+			};
+			buildConfigurationList = FD09053015F7B59800B130B7 /* Build configuration list for PBXProject "VLYoutubeExtractor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FD09052B15F7B59800B130B7;
+			productRefGroup = FD09053715F7B59800B130B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD09053515F7B59800B130B7 /* VLYoutubeExtractor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD09053415F7B59800B130B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD09054515F7B59900B130B7 /* InfoPlist.strings in Resources */,
+				FD09055115F7B59900B130B7 /* VLViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD09053215F7B59800B130B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD09054715F7B59900B130B7 /* main.m in Sources */,
+				FD09054B15F7B59900B130B7 /* VLAppDelegate.m in Sources */,
+				FD09054E15F7B59900B130B7 /* VLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD09054315F7B59800B130B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD09054415F7B59800B130B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FD09054F15F7B59900B130B7 /* VLViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD09055015F7B59900B130B7 /* en */,
+			);
+			name = VLViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD09055215F7B59900B130B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD09055315F7B59900B130B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD09055515F7B59900B130B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VLYoutubeExtractor/VLYoutubeExtractor-Prefix.pch";
+				INFOPLIST_FILE = "VLYoutubeExtractor/VLYoutubeExtractor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FD09055615F7B59900B130B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VLYoutubeExtractor/VLYoutubeExtractor-Prefix.pch";
+				INFOPLIST_FILE = "VLYoutubeExtractor/VLYoutubeExtractor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD09053015F7B59800B130B7 /* Build configuration list for PBXProject "VLYoutubeExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD09055215F7B59900B130B7 /* Debug */,
+				FD09055315F7B59900B130B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD09055415F7B59900B130B7 /* Build configuration list for PBXNativeTarget "VLYoutubeExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD09055515F7B59900B130B7 /* Debug */,
+				FD09055615F7B59900B130B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD09052D15F7B59800B130B7 /* Project object */;
+}
